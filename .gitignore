@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+logs/
+
+# Temporary uploads
+backend/uploads/
+
+# Environment
+.env

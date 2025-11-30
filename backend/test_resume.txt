@@ -1,0 +1,52 @@
+SWATANTRA TIWARI
+Software Engineer
+Email: john.doe@email.com | Phone: +1-555-123-4567
+LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+
+PROFESSIONAL SUMMARY
+Results-driven Software Engineer with 5+ years of experience in full-stack development. 
+Proven track record of building scalable web applications and leading cross-functional teams.
+
+EXPERIENCE
+
+Senior Software Engineer | Tech Corp Inc. | Jan 2021 - Present
+- Developed and launched 3 major web applications serving 100K+ users
+- Led a team of 5 developers to deliver projects 20% ahead of schedule
+- Implemented CI/CD pipelines, reducing deployment time by 40%
+- Optimized database queries, improving application performance by 35%
+
+Software Engineer | StartUp Solutions | Jun 2019 - Dec 2020
+- Built RESTful APIs using Python Flask and Node.js
+- Designed responsive frontend interfaces with React and TypeScript
+- Collaborated with product team to define technical requirements
+- Mentored 2 junior developers on best practices
+
+EDUCATION
+
+Bachelor of Science in Computer Science | State University | 2015 - 2019
+- GPA: 3.8/4.0
+- Relevant Coursework: Data Structures, Algorithms, Database Systems
+
+SKILLS
+
+Programming Languages: Python, JavaScript, TypeScript, Java, SQL
+Frameworks & Libraries: React, Flask, Node.js, Express, Django
+Tools & Technologies: Git, Docker, AWS, MongoDB, PostgreSQL
+Soft Skills: Team Leadership, Problem Solving, Agile/Scrum
+
+PROJECTS
+
+E-Commerce Platform
+- Developed full-stack e-commerce application with payment integration
+- Implemented user authentication, shopping cart, and order management
+- Technologies: React, Node.js, MongoDB, Stripe API
+
+Task Management App
+- Created collaborative task management tool with real-time updates
+- Designed RESTful API and database schema
+- Technologies: Flask, PostgreSQL, WebSockets
+
+CERTIFICATIONS
+
+AWS Certified Developer - Associate | Amazon Web Services | 2022
+Certified Scrum Master (CSM) | Scrum Alliance | 2021
