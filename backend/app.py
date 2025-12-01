@@ -56,7 +56,7 @@ def analyze_resume():
         job_description = request.form.get('job_description', '')
         
         # Save file securely
-        filename = secure_filename(file.filename)
+        filename = secure_filename(file.filename) # type: ignore
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
         
@@ -92,7 +92,9 @@ def analyze_resume():
 
 
 if __name__ == '__main__':
+    # Get port from environment variable (for deployment) or use 5000 as default
+    port = int(os.environ.get('PORT', 5000))
     print("🚀 Starting AI Resume Analyzer Backend...")
-    print("📍 Server running at: http://localhost:5000")
+    print(f"📍 Server running on port {port}")
     print("📋 Endpoints: / and /analyze")
-    app.run(debug=True, port=5000)
+    app.run(debug=False, host='0.0.0.0', port=port)

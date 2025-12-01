@@ -1,6 +1,6 @@
 import os
-from docx import Document
-import PyPDF2
+from docx import Document # type: ignore
+import PyPDF2 # type: ignore
 
 
 def extract_text(filepath):

@@ -87,24 +87,24 @@ def extract_contact_details(text):
     email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
     email_match = re.search(email_pattern, text)
     if email_match:
-        contact["email"] = email_match.group(0)
+        contact["email"] = email_match.group(0) # type: ignore
     
     # Phone extraction
     phone_pattern = r'(\+?\d{1,3}[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}'
     phone_match = re.search(phone_pattern, text)
     if phone_match:
-        contact["phone"] = phone_match.group(0)
+        contact["phone"] = phone_match.group(0) # type: ignore
     
     # LinkedIn extraction
     linkedin_pattern = r'linkedin\.com/in/[\w-]+'
     linkedin_match = re.search(linkedin_pattern, text.lower())
     if linkedin_match:
-        contact["linkedin"] = linkedin_match.group(0)
+        contact["linkedin"] = linkedin_match.group(0) # type: ignore
     
     # GitHub extraction
     github_pattern = r'github\.com/[\w-]+'
     github_match = re.search(github_pattern, text.lower())
     if github_match:
-        contact["github"] = github_match.group(0)
+        contact["github"] = github_match.group(0) # type: ignore
     
     return contact
